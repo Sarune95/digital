@@ -133,7 +133,7 @@ def atm():
             if not amount.isdigit():
                 print()
                 time.sleep(0.1)
-                print("      [cyan]Invalid input[/]Please enter a number")
+                print("      [cyan]Invalid input[/]")
                 time.sleep(0.1)
                 print()
                 print("      [cyan]Please enter only numbers[/]")
