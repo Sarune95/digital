@@ -39,6 +39,25 @@ def logo():
     print("[green]==================================================[/]")
     time.sleep(0.1)
 
+def menu():
+    """Main menu"""
+    print()
+    time.sleep(0.1)
+    print("      [green]___[/] [bright_cyan]MENU[/] [green]___[/]")
+    time.sleep(0.1)
+    print()
+    print("      [cyan]1. BALANCE[/]")
+    time.sleep(0.1)
+    print("      [cyan]2. DEPOSIT[/]")
+    time.sleep(0.1)
+    print("      [cyan]3. WITHDRAW[/]")
+    time.sleep(0.1)
+    print("      [cyan]0. EXIT[/]")
+    time.sleep(0.1)
+    print()
+    print("[green]==================================================[/]")
+    time.sleep(0.1)
+
 loader()
 def atm():
     """Verification"""
@@ -80,5 +99,6 @@ def atm():
         print("      [cyan]Closing...[/]")
         time.sleep(2)
         return
+    menu()
 
 atm()
