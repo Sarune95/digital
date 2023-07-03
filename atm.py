@@ -63,6 +63,7 @@ def atm():
     """Verification"""
     pin = "1234"
     attempts = 0
+    balance = 9999
     while attempts < 4:
         logo()
         print()
@@ -118,7 +119,13 @@ def atm():
         choice = int(choice)
 
         if choice == 1:
-            print("balance")
+            print()
+            time.sleep(0.1)
+            print("      [cyan]Account balance[/]")
+            print()
+            time.sleep(0.1)
+            print(f'      [cyan]$[/] [red]{balance}[/]')
+            time.sleep(2)
         elif choice == 2:
             print("Deposit")
         elif choice == 3:
