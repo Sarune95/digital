@@ -28,15 +28,12 @@ def logo():
     os.system('cls||clear')
     print()
     now = datetime.datetime.now()
-    print(now.strftime("      [cyan]%A     %Y-%m-%d  %H:%M:%S[/]"))
+    print(now.strftime("      [cyan]%A       %Y-%m-%d  %H:%M:%S[/]"))
     time.sleep(0.1)
     print("[green]==================================================[/]")
     time.sleep(0.1)
     print()
-    print("          [cyan]Welcome to[/]")
-    print()
-    time.sleep(0.1)
-    print("          [bright_magenta]DIGITAL BANK[/]      [green]$$$[/]")
+    print("      [cyan]Welcome to[/]   [bright_magenta]DIGITAL BANK[/]")
     print()
     time.sleep(0.1)
     print("[green]==================================================[/]")
@@ -48,7 +45,7 @@ def atm():
     pin = "1234"
     attempts = 0
     while attempts < 4:
-
+        logo()
         entered_pin = input("Enter your PIN: ")
 
         if entered_pin != pin:
