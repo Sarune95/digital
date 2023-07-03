@@ -3,6 +3,7 @@ Digital bank virtual atm machine
 """
 import os
 import time
+import datetime
 from rich import print
 
 
@@ -21,12 +22,33 @@ def loader():
         print("[green]==================================================[/]")
         time.sleep(1)
 
+def logo():
+    """Main welcome message, day, time, name"""
+    time.sleep(1)
+    os.system('cls||clear')
+    print()
+    now = datetime.datetime.now()
+    print(now.strftime("      [cyan]%A     %Y-%m-%d  %H:%M:%S[/]"))
+    time.sleep(0.1)
+    print("[green]==================================================[/]")
+    time.sleep(0.1)
+    print()
+    print("          [cyan]Welcome to[/]")
+    print()
+    time.sleep(0.1)
+    print("          [bright_magenta]DIGITAL BANK[/]      [green]$$$[/]")
+    print()
+    time.sleep(0.1)
+    print("[green]==================================================[/]")
+    time.sleep(0.1)
+
 loader()
 def atm():
     """Verification"""
     pin = "1234"
     attempts = 0
     while attempts < 4:
+
         entered_pin = input("Enter your PIN: ")
 
         if entered_pin != pin:
