@@ -149,7 +149,32 @@ def atm():
             print(f'      [cyan]Your balance is:[/] [red]{balance}[/]')
             time.sleep(1)
         elif choice == 3:
-            print("Withdraw")
+            print()
+            amount = input("      Enter the amount to withdraw: ")
+            if not amount.isdigit():
+                print()
+                time.sleep(0.1)
+                print("      [cyan]Invalid input[/]")
+                time.sleep(0.1)
+                print()
+                print("      [cyan]Please enter only numbers[/]")
+                time.sleep(1)
+                continue
+            amount = float(amount)
+            if amount > balance:
+                print()
+                time.sleep(0.1)
+                print("      [cyan]Insufficient balance[/]")
+                time.sleep(1)
+            else:
+                balance-= amount
+                print()
+                time.sleep(0.1)
+                print("      [cyan]Withdrawal successful[/]")
+                print()
+                time.sleep(0.1)
+                print(f'      [cyan]Your balance is:[/] [red]{balance}[/]')
+                time.sleep(1)
         elif choice == 0:
             print("Thank you for using the atm. Goodbye!")
             break
