@@ -102,14 +102,21 @@ def atm():
     while True:
         logo()
         menu()
-        
-        choice = input("Enter your choice: ")
-        
+        print()
+        choice = input("      Enter your choice: ")
+
         if not choice.isdigit():
-            print("Invalid input. Please enter a number.")
+            print()
+            time.sleep(0.1)
+            print("      [cyan]Invalid input[/]")
+            print()
+            time.sleep(0.1)
+            print("      [cyan]Please enter a number[/]")
+            time.sleep(1)
             continue
+
         choice = int(choice)
-        
+
         if choice == 1:
             print("balance")
         elif choice == 2:
@@ -120,6 +127,12 @@ def atm():
             print("Thank you for using the atm. Goodbye!")
             break
         else:
-            print("Invalid choice. Please try again.")
+            print()
+            time.sleep(0.1)
+            print("      [cyan]Invalid choice[/]")
+            print()
+            time.sleep(0.1)
+            print("      [cyan]Please try again[/]")
+            time.sleep(1)
 
 atm()
