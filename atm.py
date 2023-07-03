@@ -46,19 +46,39 @@ def atm():
     attempts = 0
     while attempts < 4:
         logo()
-        entered_pin = input("Enter your PIN: ")
+        print()
+        entered_pin = input("      Enter your PIN: ")
 
         if entered_pin != pin:
             attempts += 1
-            remaining_attempts = 4 - attempts
-            print("Incorrect PIN. Please try again. Remaining attempts: ", remaining_attempts)
+            left = 4 - attempts
+            print()
+            print("      [cyan]Incorrect PIN[/]")
+            time.sleep(0.1)
+            print(f'      [cyan]Remaining attempts:[/] [red]{left}[/]')
+            time.sleep(0.5)
             continue
 
-        print("PIN accepted. Access granted.")
+        print()
+        print("      [cyan]PIN accepted[/]")
+        print()
+        time.sleep(0.1)
+        print("      [cyan]Access granted[/]")
+        print()
+        time.sleep(0.1)
+        print("      [cyan]Loading menu...[/]")
+        time.sleep(2)
         break
 
     if attempts == 4:
-        print("maximum PIN attempts reached. Your card is locked.")
+        print()
+        print("      [cyan]Maximum PIN attempts reached[/]")
+        time.sleep(0.1)
+        print("      [cyan]Your card is locked[/]")
+        print()
+        time.sleep(0.1)
+        print("      [cyan]Closing...[/]")
+        time.sleep(2)
         return
 
 atm()
