@@ -20,7 +20,7 @@ def loader():
         print(f'               [blue]LOADING {number}[/]')
         print()
         print("[green]==================================================[/]")
-        time.sleep(1)
+        time.sleep(0.1)
 
 def logo():
     """Main welcome message, day, time, name"""
