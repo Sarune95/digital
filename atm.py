@@ -176,7 +176,13 @@ def atm():
                 print(f'      [cyan]Your balance is:[/] [red]{balance}[/]')
                 time.sleep(1)
         elif choice == 0:
-            print("Thank you for using the atm. Goodbye!")
+            print()
+            time.sleep(0.1)
+            print("      [green]Thank you for using the atm[/]")
+            time.sleep(0.1)
+            print()
+            print("      [green]Goodbye![/]")
+            time.sleep(1)
             break
         else:
             print()
