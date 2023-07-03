@@ -99,6 +99,27 @@ def atm():
         print("      [cyan]Closing...[/]")
         time.sleep(2)
         return
-    menu()
+    while True:
+        logo()
+        menu()
+        
+        choice = input("Enter your choice: ")
+        
+        if not choice.isdigit():
+            print("Invalid input. Please enter a number.")
+            continue
+        choice = int(choice)
+        
+        if choice == 1:
+            print("balance")
+        elif choice == 2:
+            print("Deposit")
+        elif choice == 3:
+            print("Withdraw")
+        elif choice == 0:
+            print("Thank you for using the atm. Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please try again.")
 
 atm()
