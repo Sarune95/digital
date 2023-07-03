@@ -101,6 +101,7 @@ def atm():
         time.sleep(2)
         return
     while True:
+        """ Main loop"""
         logo()
         menu()
         print()
@@ -127,7 +128,26 @@ def atm():
             print(f'      [cyan]$[/] [red]{balance}[/]')
             time.sleep(2)
         elif choice == 2:
-            print("Deposit")
+            print()
+            amount = input("      Enter the amount to deposit: ")
+            if not amount.isdigit():
+                print()
+                time.sleep(0.1)
+                print("      [cyan]Invalid input[/]Please enter a number")
+                time.sleep(0.1)
+                print()
+                print("      [cyan]Please enter only numbers[/]")
+                time.sleep(1)
+                continue
+            amount = float(amount)
+            balance += amount
+            print()
+            time.sleep(0.1)
+            print("      [cyan]Deposit successful[/]")
+            print()
+            time.sleep(0.1)
+            print(f'      [cyan]Your balance is:[/] [red]{balance}[/]')
+            time.sleep(1)
         elif choice == 3:
             print("Withdraw")
         elif choice == 0:
