@@ -19,7 +19,7 @@ def loader():
         print(f'               [blue]LOADING {number}[/]')
         print()
         print("[green]==================================================[/]")
-        time.sleep(0.1)
+        time.sleep(1)
 
 loader()
 def atm():
