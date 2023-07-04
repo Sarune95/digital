@@ -26,7 +26,6 @@ def logo():
     """Main welcome message, day, time, name"""
     time.sleep(1)
     os.system('cls||clear')
-    print()
     now = datetime.datetime.now()
     print(now.strftime("      [cyan]%A       %Y-%m-%d  %H:%M:%S[/]"))
     time.sleep(0.1)
@@ -100,8 +99,8 @@ def atm():
         print("      [cyan]Closing...[/]")
         time.sleep(2)
         return
+
     while True:
-        """ Main loop"""
         logo()
         menu()
         print()
@@ -139,6 +138,7 @@ def atm():
                 print("      [cyan]Please enter only numbers[/]")
                 time.sleep(1)
                 continue
+
             amount = float(amount)
             balance += amount
             print()
@@ -160,6 +160,7 @@ def atm():
                 print("      [cyan]Please enter only numbers[/]")
                 time.sleep(1)
                 continue
+
             amount = float(amount)
             if amount > balance:
                 print()
@@ -184,6 +185,7 @@ def atm():
             print("      [green]Goodbye![/]")
             time.sleep(1)
             break
+
         else:
             print()
             time.sleep(0.1)
@@ -194,4 +196,3 @@ def atm():
             time.sleep(1)
 
 atm()
-
