@@ -19,7 +19,7 @@ This application madded for terminal so design is not complicated, and wireframe
 | USER | FEATURE |
 | --- | --- |
 | Check time | Added time and date |
-| Protect his account | Added pin password |
+| Protection to user account | Added pin password |
 | See his account balance | Balance can be visible in real time |
 | Add money to his account | Deposit function, which add user money to his account and updates account balance |
 | Take money from his account | Withdraw function, which give user money from his account and updates his account balance |
