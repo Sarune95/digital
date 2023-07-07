@@ -20,9 +20,9 @@ This application madded for terminal so design is not complicated, and wireframe
 | --- | --- |
 | Check time | Added time and date |
 | Protection to user account | Added pin password |
-| See his account balance | Balance can be visible in real time |
-| Add money to his account | Deposit function, which add user money to his account and updates account balance |
-| Take money from his account | Withdraw function, which give user money from his account and updates his account balance |
+| Check account balance | Balance can be visible in real time |
+| Add money to account | Deposit function, which add user money to account and updates account balance |
+| Take money from account | Withdraw function, which give user money from account and updates accounts balance |
 | Can leave ATM | Exit function which turns off application |
 
 # TESTING
