@@ -6,6 +6,7 @@ import time
 import datetime
 from rich import print
 
+
 def clear():
     """clear function on windows or linux/mac"""
     if os.name == 'nt':
@@ -13,10 +14,11 @@ def clear():
     else:
         os.system('clear')
 
+
 def loader():
     """INTRO"""
     numbers = ['5%', '10%', '15%', '20%', '25%', '30%', '35%',
-               '40%', '45%', '50%', '55%', '60%', '65%', '70%', 
+               '40%', '45%', '50%', '55%', '60%', '65%', '70%',
                '75%', '80%', '85%', '90%', '95%', '100%']
     for number in numbers:
         clear()
@@ -27,6 +29,7 @@ def loader():
         print()
         print("[green]==================================================[/]")
         time.sleep(0.1)
+
 
 def logo():
     """Main welcome message, day, time, name"""
@@ -43,6 +46,7 @@ def logo():
     time.sleep(0.1)
     print("[green]==================================================[/]")
     time.sleep(0.1)
+
 
 def menu():
     """Main menu"""
@@ -63,7 +67,10 @@ def menu():
     print("[green]==================================================[/]")
     time.sleep(0.1)
 
+
 loader()
+
+
 def atm():
     """Verification"""
     pin = "1234"
@@ -174,7 +181,7 @@ def atm():
                 print("      [cyan]Insufficient balance[/]")
                 time.sleep(1)
             else:
-                balance-= amount
+                balance -= amount
                 print()
                 time.sleep(0.1)
                 print("      [cyan]Withdrawal successful[/]")
@@ -203,5 +210,6 @@ def atm():
             time.sleep(0.1)
             print("      [cyan]Please try again[/]")
             time.sleep(1)
+
 
 atm()
