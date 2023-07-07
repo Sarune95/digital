@@ -95,5 +95,23 @@ No issues was found after pasting code in CI Python Linter
 [Heroku](https://id.heroku.com/login) for deploy python app
 
 # DEPLOYMENT
+
+This project was deployed using Code Institute's mock terminal for Heroku
+
+* Steps for deployment:
+  * Fork or clone this repository
+  * Create new Heroku app
+  * Set buildpacks to Heroku/Python and Heroku/NodeJs in that order
+  * Set config var to PORT and 8000
+  * Link the Heroku app to the repository
+  * Click on Deploy
+
 # CREDITS
 
+[Code Institute](https://codeinstitute.net/) for the deployment terminal
+
+[W3schools](https://www.w3schools.com/) for python usability
+
+[Stack Overflow](https://stackoverflow.com) for custom python code
+
+Special thanks Code Institute mentor Derek Mcauley
