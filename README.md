@@ -79,6 +79,21 @@ No issues was found after pasting code in CI Python Linter
 
 # BUGS
 # TECHNOLOGIES
+
+## Languages
+
+[Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+## Validator
+
+[PEP8](https://pep8ci.herokuapp.com/) for python guidance
+
+## Programs
+
+[Github](https://github.com/) to save and store the files for the website
+
+[Heroku](https://id.heroku.com/login) for deploy python app
+
 # DEPLOYMENT
 # CREDITS
 
