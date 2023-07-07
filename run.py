@@ -6,6 +6,12 @@ import time
 import datetime
 from rich import print
 
+def clear():
+    """clear function on windows or linux/mac"""
+    if os.name == 'nt':
+        os.system('cls')
+    else:
+        os.system('clear')
 
 def loader():
     """INTRO"""
@@ -13,7 +19,7 @@ def loader():
                '40%', '45%', '50%', '55%', '60%', '65%', '70%', 
                '75%', '80%', '85%', '90%', '95%', '100%']
     for number in numbers:
-        os.system('cls||clear')
+        clear()
         print()
         print("[green]==================================================[/]")
         print()
@@ -25,7 +31,7 @@ def loader():
 def logo():
     """Main welcome message, day, time, name"""
     time.sleep(1)
-    os.system('cls||clear')
+    clear()
     now = datetime.datetime.now()
     print(now.strftime("      [cyan]%A       %Y-%m-%d  %H:%M:%S[/]"))
     time.sleep(0.1)
@@ -179,7 +185,10 @@ def atm():
         elif choice == 0:
             print()
             time.sleep(0.1)
-            print("      [green]Thank you for using the atm[/]")
+            print("      [green]Thank you for using service of[/]")
+            time.sleep(0.1)
+            print()
+            print("      [bright_magenta]DIGITAL BANK[/]")
             time.sleep(0.1)
             print()
             print("      [green]Goodbye![/]")
