@@ -9,6 +9,11 @@ Digital bank atm is a must in order to control the money that you have.If you ar
 ## Existing Features
 ## Future Features
 # WIREFRAME
+
+![wireframe](assets/images/readme/wireframe.jpg)
+
+This application madded for terminal so design is not complicated, and wireframes ended as intended without marginal differences.
+
 # USER STORIES
 # TESTING
 # BUGS
