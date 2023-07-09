@@ -5,6 +5,22 @@ Digital bank atm is a must in order to control the money that you have.If you ar
 
 ![Page](assets/images/readme/page.jpg)
 
+# TABLE OF CONTENT
+
+* [WIREFRAME](#wireframe)
+* [USER STORIES](#user-stories)
+* [DATA MODEL](#data-model)
+* [FEATURES](#features)
+  * [Existing features](#existing-features)
+  * [Future features](#future-features)
+* [TESTING](#testing)
+  * [Automated](#automated-testing)
+  * [Manual](#manual-testing)
+* [BUGS](#bugs)
+* [TECHNOLOGIES](#technologies)
+* [DEPLOYMENT](#deployment)
+* [CREDITS](#credits)
+
 # WIREFRAME
 
 ![wireframe](assets/images/readme/wireframe.jpg)
