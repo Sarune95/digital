@@ -6,8 +6,133 @@ Digital bank atm is a must in order to control the money that you have.If you ar
 ![Page](assets/images/readme/page.jpg)
 
 # FEATURES
+
 ## Existing Features
+
+### Loading screen
+![loading](assets/images/readme/loading.jpg)
+
+Simple feature which loads Digital bank app, and at the same time give user impression of realism.
+
+### Date and time
+
+![clock](assets/images/readme/clock.jpg)
+
+Shows user currant time and day
+
+### Welcome
+
+![welcome](assets/images/readme/welcome.jpg)
+
+After loading user meet greetings message
+
+### PIN
+
+![pin](assets/images/readme/pin.jpg)
+
+This feature gives user a protection for his account
+
+### PIN error
+
+![error](assets/images/readme/pin_error.jpg)
+
+User gets an error after entering wrong PIN
+
+### PIN error#2
+
+![pin_simb](assets/images/readme/pin_simb.jpg)
+
+User gets this error if been entered something else then numbers
+
+### Locked card
+
+![locked](assets/images/readme/locked.jpg)
+
+User gets this error when entered pin wrong 4 times
+
+### Access granted
+
+![pin_ok](assets/images/readme/good_pin.jpg)
+
+Shows message for the user  when entered correctly, and loads menu
+
+### Menu
+
+![menu](assets/images/readme/menu.jpg)
+
+Displayed menu for the user and option to chose from available operations
+
+### Menu error
+
+![menu_error](assets/images/readme/menu_error.jpg)
+
+User gets error message when his choice not meet with available options in the menu
+
+### Menu error2
+
+![menu_simb](assets/images/readme/menu_simb.jpg)
+
+User gets error when entered something else then number
+
+### Balance
+
+![balance](assets/images/readme/balance.jpg)
+
+This section user gets displayed his currant account balance
+
+### Deposit
+
+![deposit](assets/images/readme/deposit.jpg)
+
+User gets option to enter amount to deposit
+
+### Successful deposit
+
+![deposit_ok](assets/images/readme/deposit_ok.jpg)
+
+If deposit function successful user gets message with updated balance
+
+### Deposit error
+
+![deposit_simb](assets/images/readme/deposit_simb.jpg)
+
+User gets error if entered something else then numbers
+
+### Withdraw
+
+![withdraw](assets/images/readme/withdraw.jpg)
+
+User gets option to enter amount to withdraw
+
+### Withdraw successful
+
+![withdraw_ok](assets/images/readme/withdraw_ok.jpg)
+
+This message been displayed when withdraw was successful and balance been updated
+
+### Withdraw insufficient balance
+
+![no_money](assets/images/readme/withdraw_n0_money.jpg)
+
+This error been shown when user enters bigger amount then is in actual account
+
+### Withdraw error
+
+![withdraw_error](assets/images/readme/withdraw_error.jpg)
+
+User gets error if entered something else then numbers
+
+### Exit
+
+![exit](assets/images/readme/exit.jpg)
+
+Leaving message been displayed when user chose to leave
+
 ## Future Features
+
+* Include option in withdraw section which gives user ability to do quick withdraw whit set amounts (10, 20, 40, 50, 60, 80, 100, 200)
+* Include ability to change PIN
+
 # WIREFRAME
 
 ![wireframe](assets/images/readme/wireframe.jpg)
