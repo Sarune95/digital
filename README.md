@@ -5,11 +5,35 @@ Digital bank atm is a must in order to control the money that you have.If you ar
 
 ![Page](assets/images/readme/page.jpg)
 
+# WIREFRAME
+
+![wireframe](assets/images/readme/wireframe.jpg)
+
+This application madded for terminal so design is not complicated, and wireframes ended as intended without marginal differences.
+
+# USER STORIES
+
+| USER | FEATURE |
+| --- | --- |
+| Check time | Added time and date |
+| Protection to user account | Added pin password |
+| Check account balance | Balance can be visible in real time |
+| Add money to account | Deposit function, which add user money to account and updates account balance |
+| Take money from account | Withdraw function, which give user money from account and updates accounts balance |
+| Can leave ATM | Exit function which turns off application |
+
+# DATA MODEL
+
+![model](assets/images/readme/data_model.jpg)
+
+Digital bank atm mainly created using two loops. First one validates user and gives error messages if PIN entered wrong. Second gives main functionality and provides error messages.
+
 # FEATURES
 
 ## Existing Features
 
 ### Loading screen
+
 ![loading](assets/images/readme/loading.jpg)
 
 Simple feature which loads Digital bank app, and at the same time give user impression of realism.
@@ -132,23 +156,6 @@ Leaving message been displayed when user chose to leave
 
 * Include option in withdraw section which gives user ability to do quick withdraw whit set amounts (10, 20, 40, 50, 60, 80, 100, 200)
 * Include ability to change PIN
-
-# WIREFRAME
-
-![wireframe](assets/images/readme/wireframe.jpg)
-
-This application madded for terminal so design is not complicated, and wireframes ended as intended without marginal differences.
-
-# USER STORIES
-
-| USER | FEATURE |
-| --- | --- |
-| Check time | Added time and date |
-| Protection to user account | Added pin password |
-| Check account balance | Balance can be visible in real time |
-| Add money to account | Deposit function, which add user money to account and updates account balance |
-| Take money from account | Withdraw function, which give user money from account and updates accounts balance |
-| Can leave ATM | Exit function which turns off application |
 
 # TESTING
 
