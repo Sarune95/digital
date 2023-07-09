@@ -226,6 +226,17 @@ No issues was found after pasting code in CI Python Linter
 | Exit | After user input, program exits | Program exits as intended |
 
 # BUGS
+
+| Problem | Fix |
+| --- | --- |
+| PEP8 Python validator was giving W293 blank line contains whitespace | Removed white spaces |
+| PEP8 Python validator was giving E302 expected 2 blank lines, found 1 | Added extra line |
+| After deployment to heroku been getting error  sh : cls not found | By adding statement 
+    if os.name == 'nt':
+        os.system('cls')
+    else:
+        os.system('clear')
+        
 # TECHNOLOGIES
 
 ## Languages
